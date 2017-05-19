@@ -19,7 +19,7 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 - [Features](#features)
 - [Requirements](#requirements)
 - [Provides packages](#provides-packages)
-- [Frameworks integration](#frameworks-integration)
+- [Frameworks support](#frameworks-support)
 - [Installation](#installation)
 - [Usage](#usage)
     - [Initialize API client](#initialize-api-client)
@@ -57,11 +57,11 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 
 **Haven't found required functionality? [We are open](CONTRIBUTING.md) for Pull Requests!**
 
-## Frameworks integration
+## Frameworks support
 
 YouTrack PHP SDK is framework agnostic package and could be easily used in any PHP framework you want.
 
-Framework integrations list:
+### Framework integrations list
 
 - [Laravel YouTrack SDK](https://github.com/cybercog/laravel-youtrack-sdk#readme) maintained by [Anton Komarev](https://github.com/a-komarev)
 
