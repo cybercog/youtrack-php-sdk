@@ -56,7 +56,7 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 
 ## Frameworks integration
 
-YouTrack REST PHP Client is framework agnostic package and could be easily used in any PHP framework you want.
+YouTrack PHP SDK is framework agnostic package and could be easily used in any PHP framework you want.
 
 Framework integrations list:
 
