@@ -52,7 +52,7 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 
 ## Provides packages
 
-- [YouTrack REST API PHP Client](https://github.com/cybercog/youtrack-rest-php)
+- [YouTrack REST API PHP Client](https://github.com/cybercog/youtrack-rest-php#readme) maintained by [Anton Komarev](https://github.com/a-komarev)
 
 ## Frameworks integration
 
@@ -60,7 +60,7 @@ YouTrack PHP SDK is framework agnostic package and could be easily used in any P
 
 Framework integrations list:
 
-- [Laravel YouTrack SDK](https://github.com/cybercog/laravel-youtrack-sdk) maintained by [Anton Komarev](https://github.com/a-komarev)
+- [Laravel YouTrack SDK](https://github.com/cybercog/laravel-youtrack-sdk#readme) maintained by [Anton Komarev](https://github.com/a-komarev)
 
 **Haven't found your favorite framework in the list? We are open for Pull Requests!**
 
