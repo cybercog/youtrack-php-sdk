@@ -18,6 +18,7 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 
 - [Features](#features)
 - [Requirements](#requirements)
+- [Provides packages](#provides-packages)
 - [Frameworks integration](#frameworks-integration)
 - [Installation](#installation)
 - [Usage](#usage)
