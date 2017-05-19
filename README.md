@@ -52,7 +52,9 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 
 ## Provides packages
 
-- [YouTrack REST API PHP Client](https://github.com/cybercog/youtrack-rest-php)
+- [YouTrack REST API PHP Client](https://github.com/cybercog/youtrack-rest-php#readme) maintained by [Anton Komarev](https://github.com/a-komarev)
+
+**Haven't found required functionality? [We are open](CONTRIBUTING.md) for Pull Requests!**
 
 ## Frameworks integration
 
@@ -60,9 +62,9 @@ YouTrack PHP SDK is framework agnostic package and could be easily used in any P
 
 Framework integrations list:
 
-- [Laravel YouTrack SDK](https://github.com/cybercog/laravel-youtrack-sdk) maintained by [Anton Komarev](https://github.com/a-komarev)
+- [Laravel YouTrack SDK](https://github.com/cybercog/laravel-youtrack-sdk#readme) maintained by [Anton Komarev](https://github.com/a-komarev)
 
-**Haven't found your favorite framework in the list? We are open for Pull Requests!**
+**Haven't found your favorite framework in the list? [We are open](CONTRIBUTING.md) for Pull Requests!**
 
 ## Installation
 
@@ -156,4 +158,4 @@ If you discover any security related issues, please email oss@cybercog.su instea
 
 [CyberCog](http://www.cybercog.ru) is a Social Unity of enthusiasts. Research best solutions in product & software development is our passion.
 
-![cybercog-logo](https://cloud.githubusercontent.com/assets/1849174/18418932/e9edb390-7860-11e6-8a43-aa3fad524664.png)
+<a href="http://cybercog.ru"><img src="https://cloud.githubusercontent.com/assets/1849174/18418932/e9edb390-7860-11e6-8a43-aa3fad524664.png" alt="CyberCog"></a>
