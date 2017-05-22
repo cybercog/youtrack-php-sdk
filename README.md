@@ -40,6 +40,7 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 - YouTrack Entities with relationships.
 - Multiple authorization strategies: Token, Cookie.
 - Following PHP Standard Recommendations:
+  - [PSR-1 (Basic Coding Standard)](http://www.php-fig.org/psr/psr-1/).
   - [PSR-2 (Coding Style Guide)](http://www.php-fig.org/psr/psr-2/).
   - [PSR-4 (Autoloading Standard)](http://www.php-fig.org/psr/psr-4/).
   - [PSR-7 (HTTP Message Interface)](http://www.php-fig.org/psr/psr-7/).
@@ -91,13 +92,13 @@ require_once '/path/to/your-project/vendor/autoload.php';
 
 ### Initialize API client
 
-#### Token Authorizer
+#### Token authorization
 
 Starting with YouTrack 2017.1 release [authorization based on permanent tokens](https://www.jetbrains.com/help/youtrack/standalone/2017.2/Manage-Permanent-Token.html) is recommended as the main approach for the authorization in your REST API calls. 
 
 ```php
 // Instantiate HTTP Client
-$http = new \GuzzleHttp\Client([
+$psrHttpClient = new \GuzzleHttp\Client([
     'base_uri' => 'https://example.com',
 ]);
 
@@ -107,14 +108,14 @@ $authorizer = new \Cog\YouTrack\Rest\Authorizer\TokenAuthorizer([
 ]);
 
 // Instantiate YouTrack API Client
-$client = new \Cog\YouTrack\Rest\YouTrackClient($http, $authorizer);
+$client = new \Cog\YouTrack\Rest\YouTrackClient($psrHttpClient, $authorizer);
 ```
 
-#### Cookie Authorizer
+#### Cookie authorization
 
 ```php
 // Instantiate HTTP Client
-$http = new \GuzzleHttp\Client([
+$psrHttpClient = new \GuzzleHttp\Client([
     'base_uri' => 'https://example.com',
 ]);
 
@@ -125,7 +126,7 @@ $authorizer = new \Cog\YouTrack\Rest\Authorizer\CookieAuthorizer([
 ]);
 
 // Instantiate YouTrack API Client
-$client = new \Cog\YouTrack\Rest\YouTrackClient($http, $authorizer);
+$client = new \Cog\YouTrack\Rest\YouTrackClient($psrHttpClient, $authorizer);
 ```
 
 ## Change log
