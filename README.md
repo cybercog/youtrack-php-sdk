@@ -22,8 +22,7 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 - [Frameworks support](#frameworks-support)
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Initialize API client](#initialize-api-client)
-    - [Repositories methods](#repositories-methods)
+    - [API client](#api-client)
 - [Change log](#change-log)
 - [Contributing](#contributing)
 - [Testing](#testing)
@@ -90,44 +89,9 @@ require_once '/path/to/your-project/vendor/autoload.php';
 
 ## Usage
 
-### Initialize API client
+### API client
 
-#### Token authorization
-
-Starting with YouTrack 2017.1 release [authorization based on permanent tokens](https://www.jetbrains.com/help/youtrack/standalone/2017.2/Manage-Permanent-Token.html) is recommended as the main approach for the authorization in your REST API calls. 
-
-```php
-// Instantiate HTTP Client
-$psrHttpClient = new \GuzzleHttp\Client([
-    'base_uri' => 'https://example.com',
-]);
-
-// Instantiate YouTrack API Token Authorizer
-$authorizer = new \Cog\YouTrack\Rest\Authorizer\TokenAuthorizer([
-    'token' => 'YOUTRACK_API_TOKEN',
-]);
-
-// Instantiate YouTrack API Client
-$client = new \Cog\YouTrack\Rest\YouTrackClient($psrHttpClient, $authorizer);
-```
-
-#### Cookie authorization
-
-```php
-// Instantiate HTTP Client
-$psrHttpClient = new \GuzzleHttp\Client([
-    'base_uri' => 'https://example.com',
-]);
-
-// Instantiate YouTrack API Cookie Authorizer
-$authorizer = new \Cog\YouTrack\Rest\Authorizer\CookieAuthorizer([
-    'username' => 'YOUTRACK_USERNAME',
-    'password' => 'YOUTRACK_PASSWORD',
-]);
-
-// Instantiate YouTrack API Client
-$client = new \Cog\YouTrack\Rest\YouTrackClient($psrHttpClient, $authorizer);
-```
+[YouTrack REST API PHP Client package documentation](https://github.com/cybercog/youtrack-rest-php/tree/3.0.0#usage).
 
 ## Change log
 

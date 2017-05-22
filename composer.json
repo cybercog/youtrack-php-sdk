@@ -38,7 +38,7 @@
         "docs": "https://github.com/cybercog/youtrack-php-sdk/wiki"
     },
     "require": {
-        "cybercog/youtrack-rest-php": "^2.0",
+        "cybercog/youtrack-rest-php": "^3.0",
         "php": "^7.1"
     },
     "require-dev": {
