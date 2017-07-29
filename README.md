@@ -91,7 +91,7 @@ require_once '/path/to/your-project/vendor/autoload.php';
 
 ### API client
 
-[YouTrack REST API PHP Client package documentation](https://github.com/cybercog/youtrack-rest-php/tree/3.0.0#usage).
+[YouTrack REST API PHP Client package documentation](https://github.com/cybercog/youtrack-php-sdk/wiki/YouTrack-REST-PHP).
 
 ## Change log
 
@@ -131,6 +131,6 @@ If you discover any security related issues, please email oss@cybercog.su instea
 
 ## About CyberCog
 
-[CyberCog](http://www.cybercog.ru) is a Social Unity of enthusiasts. Research best solutions in product & software development is our passion.
+[CyberCog](http://www.cybercog.ru) is a Social Unity of enthusiasts. Research best solutions in product & software development is our passion. You can [follow us on Twitter](https://twitter.com/cybercog), read our [articles on Medium](https://medium.com/cybercog) or [support open source development on Patreon](https://www.patreon.com/cybercog).
 
 <a href="http://cybercog.ru"><img src="https://cloud.githubusercontent.com/assets/1849174/18418932/e9edb390-7860-11e6-8a43-aa3fad524664.png" alt="CyberCog"></a>
