@@ -23,19 +23,4 @@ use ReflectionClass;
  */
 abstract class TestCase extends Orchestra
 {
-    /**
-     * Force set private property of the object.
-     *
-     * @param object $class
-     * @param string $property
-     * @param mixed $value
-     * @return void
-     */
-    protected function setPrivateProperty($class, string $property, $value)
-    {
-        $reflector = new ReflectionClass($class);
-        $property = $reflector->getProperty($property);
-        $property->setAccessible(true);
-        $property->setValue($class, $value);
-    }
 }
