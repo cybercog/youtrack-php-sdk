@@ -39,7 +39,7 @@
     },
     "require": {
         "php": "^7.1",
-        "cybercog/youtrack-rest-php": "^5.0"
+        "cybercog/youtrack-rest-php": "^6.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^1.11",
