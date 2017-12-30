@@ -1,6 +1,6 @@
 # PHP YouTrack SDK
 
-![cog-php-youtrack-sdk](https://user-images.githubusercontent.com/1849174/34457168-1a2befd4-edba-11e7-85ba-e8e95d4e41b3.png)
+![cog-php-youtrack-sdk](https://user-images.githubusercontent.com/1849174/34457240-d09cd03e-edbb-11e7-8deb-27dfd056fc73.png)
 
 <p align="center">
 <a href="https://travis-ci.org/cybercog/youtrack-php-sdk"><img src="https://img.shields.io/travis/cybercog/youtrack-php-sdk/master.svg?style=flat-square" alt="Build Status"></a>
