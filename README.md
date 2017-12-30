@@ -91,7 +91,7 @@ require_once '/path/to/your-project/vendor/autoload.php';
 
 ### API client
 
-[YouTrack REST API PHP Client package documentation](https://github.com/cybercog/youtrack-php-sdk/wiki/YouTrack-REST-PHP).
+[YouTrack REST API PHP Client package documentation](https://github.com/cybercog/youtrack-php-sdk/wiki/PHP-YouTrack-REST).
 
 ## Change log
 
