@@ -1,6 +1,6 @@
-# YouTrack PHP SDK
+# PHP YouTrack SDK
 
-![cog-youtrack-php-sdk](https://cloud.githubusercontent.com/assets/1849174/26231643/46fa08ba-3c59-11e7-81d6-8962c1fe90a5.png)
+![cog-php-youtrack-sdk](https://user-images.githubusercontent.com/1849174/34457168-1a2befd4-edba-11e7-85ba-e8e95d4e41b3.png)
 
 <p align="center">
 <a href="https://travis-ci.org/cybercog/youtrack-php-sdk"><img src="https://img.shields.io/travis/cybercog/youtrack-php-sdk/master.svg?style=flat-square" alt="Build Status"></a>
@@ -59,7 +59,7 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 
 ## Frameworks support
 
-YouTrack PHP SDK is framework agnostic package and could be easily used in any PHP framework you want.
+PHP YouTrack SDK is framework agnostic package and could be easily used in any PHP framework you want.
 
 ### Framework integrations list
 
@@ -118,7 +118,7 @@ If you discover any security related issues, please email open@cybercog.su inste
 | <a href="https://github.com/a-komarev">![@a-komarev](https://avatars.githubusercontent.com/u/1849174?s=110)<br />Anton Komarev</a> |
 | :---: |
 
-[YouTrack PHP SDK contributors list](../../contributors)
+[PHP YouTrack SDK contributors list](../../contributors)
 
 ## Alternatives
 
@@ -126,7 +126,7 @@ If you discover any security related issues, please email open@cybercog.su inste
 
 ## License
 
-- `YouTrack PHP SDK` package is open-sourced software licensed under the [MIT License](LICENSE).
+- `PHP YouTrack SDK` package is open-sourced software licensed under the [MIT License](LICENSE).
 
 ## About CyberCog
 
