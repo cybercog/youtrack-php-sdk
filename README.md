@@ -126,7 +126,7 @@ If you discover any security related issues, please email open@cybercog.su inste
 
 ## License
 
-- `PHP YouTrack SDK` package is open-sourced software licensed under the [MIT License](LICENSE).
+- `PHP YouTrack SDK` package is open-sourced software licensed under the [MIT License](LICENSE) by Anton Komarev.
 
 ## About CyberCog
 
