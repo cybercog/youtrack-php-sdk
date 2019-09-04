@@ -53,7 +53,7 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 
 ## Provides packages
 
-- [YouTrack REST API PHP Client](https://github.com/cybercog/youtrack-rest-php#readme) maintained by [Anton Komarev](https://github.com/antonkomarev)
+- [YouTrack REST API PHP Client](https://github.com/cybercog/youtrack-rest-php#readme) maintained by [Anton Komarev].
 
 **Haven't found required functionality? [We are open](CONTRIBUTING.md) for Pull Requests!**
 
@@ -63,7 +63,7 @@ PHP YouTrack SDK is framework agnostic package and could be easily used in any P
 
 ### Framework integrations list
 
-- [Laravel YouTrack SDK](https://github.com/cybercog/laravel-youtrack-sdk#readme) maintained by [Anton Komarev](https://github.com/antonkomarev)
+- [Laravel YouTrack SDK](https://github.com/cybercog/laravel-youtrack-sdk#readme) maintained by [Anton Komarev].
 
 **Haven't found your favorite framework in the list? [We are open](CONTRIBUTING.md) for Pull Requests!**
 
@@ -126,13 +126,15 @@ If you discover any security related issues, please email open@cybercog.su inste
 
 ## License
 
-- `PHP YouTrack SDK` package is open-sourced software licensed under the [MIT License](LICENSE) by Anton Komarev.
+- `PHP YouTrack SDK` package is open-sourced software licensed under the [MIT License](LICENSE) by [Anton Komarev].
 
 ## About CyberCog
 
-[CyberCog](http://www.cybercog.ru) is a Social Unity of enthusiasts. Research best solutions in product & software development is our passion.
+[CyberCog](https://cybercog.ru) is a Social Unity of enthusiasts. Research best solutions in product & software development is our passion.
 
 - [Follow us on Twitter](https://twitter.com/cybercog)
 - [Read our articles on Medium](https://medium.com/cybercog)
 
-<a href="http://cybercog.ru"><img src="https://cloud.githubusercontent.com/assets/1849174/18418932/e9edb390-7860-11e6-8a43-aa3fad524664.png" alt="CyberCog"></a>
+<a href="https://cybercog.ru"><img src="https://cloud.githubusercontent.com/assets/1849174/18418932/e9edb390-7860-11e6-8a43-aa3fad524664.png" alt="CyberCog"></a>
+
+[Anton Komarev]: https://komarev.com
