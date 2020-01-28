@@ -75,7 +75,7 @@ composer installed.
 
 Once composer is installed, execute the following command in your project root to install this library:
 
-```sh
+```shell script
 $ composer require cybercog/youtrack-php-sdk
 ```
 
@@ -105,7 +105,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 Run the tests with:
 
-```sh
+```shell script
 $ composer test
 ```
 
