@@ -14,7 +14,6 @@ declare(strict_types=1);
 namespace Cog\YouTrack\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use ReflectionClass;
 
 /**
  * Class TestCase.
