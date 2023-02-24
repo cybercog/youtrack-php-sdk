@@ -15,11 +15,6 @@ namespace Cog\YouTrack\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
-/**
- * Class TestCase.
- *
- * @package Cog\YouTrack\Tests
- */
-abstract class TestCase extends Orchestra
+abstract class AbstractTestCase extends Orchestra
 {
 }

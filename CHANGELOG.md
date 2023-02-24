@@ -4,6 +4,12 @@ All notable changes to `youtrack-php-sdk` will be documented in this file.
 
 ## [Unreleased]
 
+## [4.0.1] - 2023-02-24
+
+### Fixed
+
+- Support of PHP 8.x in Composer
+
 ## [4.0.0] - 2017-11-20
 
 ### Changed
