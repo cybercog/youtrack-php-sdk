@@ -4,7 +4,7 @@ All notable changes to `youtrack-php-sdk` will be documented in this file.
 
 ## [Unreleased]
 
-## [4.0.1] - 2023-02-24
+## [4.0.2] - 2023-02-24
 
 ### Fixed
 
