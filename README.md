@@ -3,7 +3,6 @@
 ![cog-php-youtrack-sdk](https://user-images.githubusercontent.com/1849174/34457240-d09cd03e-edbb-11e7-8deb-27dfd056fc73.png)
 
 <p align="center">
-<a href="https://travis-ci.org/cybercog/youtrack-php-sdk"><img src="https://img.shields.io/travis/cybercog/youtrack-php-sdk/master.svg?style=flat-square" alt="Build Status"></a>
 <a href="https://styleci.io/repos/91754157"><img src="https://styleci.io/repos/91754157/shield" alt="StyleCI"></a>
 <a href="https://codeclimate.com/github/cybercog/youtrack-php-sdk"><img src="https://img.shields.io/codeclimate/github/cybercog/youtrack-php-sdk.svg?style=flat-square" alt="Code Climate"></a>
 <a href="https://github.com/cybercog/youtrack-php-sdk/releases"><img src="https://img.shields.io/github/release/cybercog/youtrack-php-sdk.svg?style=flat-square" alt="Releases"></a>
@@ -48,8 +47,8 @@ YouTrack PHP Software Development Kit provides set of tools to interact with [Je
 ## Requirements
 
 - YouTrack >= 3.0 with REST-API enabled (always enabled, by default)
-- PHP >= 7.1
-- Guzzle HTTP Client >= 6.2
+- PHP >= 8.1
+- Guzzle HTTP Client >= 7.0
 
 ## Provides packages
 
@@ -75,8 +74,8 @@ composer installed.
 
 Once composer is installed, execute the following command in your project root to install this library:
 
-```shell script
-$ composer require cybercog/youtrack-php-sdk
+```shell
+composer require cybercog/youtrack-php-sdk
 ```
 
 ### Without framework
@@ -103,10 +102,10 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Testing
 
-Run the tests with:
+Run the tests in terminal with:
 
-```shell script
-$ composer test
+```shell
+composer test
 ```
 
 ## Security
