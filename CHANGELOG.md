@@ -4,6 +4,16 @@ All notable changes to `youtrack-php-sdk` will be documented in this file.
 
 ## [Unreleased]
 
+## [5.0.0] - 2024-02-22
+
+### Changed
+
+- Updated PHP YouTrack REST major version to 8.0.0
+
+### Fixed
+
+- Support of PHP 8.x in Composer
+
 ## [4.0.2] - 2023-02-24
 
 ### Fixed
@@ -34,7 +44,8 @@ All notable changes to `youtrack-php-sdk` will be documented in this file.
 
 - [PHP YouTrack REST API Client](https://github.com/cybercog/youtrack-rest-php) package responsible for REST API communication.
 
-[Unreleased]: https://github.com/cybercog/youtrack-rest-php/compare/4.0.0...master
+[Unreleased]: https://github.com/cybercog/youtrack-rest-php/compare/5.0.0...master
+[5.0.0]: https://github.com/cybercog/youtrack-rest-php/compare/4.0.0...5.0.0
 [4.0.0]: https://github.com/cybercog/youtrack-rest-php/compare/3.0.0...4.0.0
 [3.0.0]: https://github.com/cybercog/youtrack-rest-php/compare/2.0.0...3.0.0
 [2.0.0]: https://github.com/cybercog/youtrack-rest-php/compare/1.0.0...2.0.0
